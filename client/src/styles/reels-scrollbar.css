@@ -1,0 +1,44 @@
+/* Custom scrollbar for reels section */
+/* WebKit browsers (Chrome, Safari, newer Edge) */
+.custom-reels-scrollbar::-webkit-scrollbar {
+  height: 4px;
+}
+
+.custom-reels-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-reels-scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  transition: all 0.2s ease;
+}
+
+.dark .custom-reels-scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.custom-reels-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.dark .custom-reels-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+/* For Firefox */
+.custom-reels-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.2) transparent;
+}
+
+.dark .custom-reels-scrollbar {
+  scrollbar-color: rgba(255, 255, 255, 0.15) transparent;
+}
+
+/* For Edge and IE */
+@supports (-ms-ime-align: auto) {
+  .custom-reels-scrollbar {
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+  }
+}
