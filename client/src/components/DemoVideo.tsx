@@ -3,7 +3,7 @@ import { Play, Pause, Volume2, VolumeX, Sparkles } from 'lucide-react';
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { motion } from 'framer-motion';
-import demoThumbnail from '../../../attached_assets/generated_images/Example_video.mp4';
+import demoThumbnail from '../../../assets/images/Example_video.mp4';
 
 export default function DemoVideo() {
   const [isVisible, setIsVisible] = useState(false);

@@ -6,23 +6,23 @@ import { ParticleButton } from '@/components/ui/particle-button';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from '@/components/ui/dialog';
 import { motion, AnimatePresence } from 'framer-motion';
 import '../styles/reels-scrollbar.css';
-import cinematicVideo from '../../../attached_assets/generated_images/lv_0_20251110005808.mp4';
-import corporateImg from "@assets/generated_images/Corporate_video_project_sample_151b361b.jpg";
+import cinematicVideo from '../../../assets/images/lv_0_20251110005808.mp4';
+import corporateImg from "@assets/images/Corporate_video_project_sample_151b361b.jpg";
 // Using local meme image
-import memeImg from '../../../attached_assets/generated_images/meme_video_sample.jpg';
-import weddingImg from '@assets/generated_images/Wedding_video_project_sample_b34a20f4.png';
-import commercialImg from '@assets/generated_images/Commercial_video_project_sample_967950d1.png';
-import documentaryImg from '@assets/generated_images/Documentary_video_project_sample_71cb5eac.png';
-import fitnessImg from '@assets/generated_images/gym_training_sample.jpg';
+import memeImg from '../../../assets/images/meme_video_sample.jpg';
+import weddingImg from '@assets/images/Wedding_video_project_sample_b34a20f4.png';
+import commercialImg from '@assets/images/Commercial_video_project_sample_967950d1.png';
+import documentaryImg from '@assets/images/Documentary_video_project_sample_71cb5eac.png';
+import fitnessImg from '@assets/images/gym_training_sample.jpg';
 
 // Import video files
-import emotionalVideo from '../../../attached_assets/generated_images/emotional_video.mp4';
-import vibesVideo from '../../../attached_assets/generated_images/vibes.mp4';
-import attitudeVideo from '../../../attached_assets/generated_images/attitude_video.mp4';
-import attitudeShortVideo from '../../../attached_assets/generated_images/attitude_short_video.mp4';
-import selfActualizationVideo from '../../../attached_assets/generated_images/self_actualization.mp4';
-import religiousVideo from '../../../attached_assets/generated_images/religious.mp4';
-import dramaticVideo from '../../../attached_assets/generated_images/dramatic.mp4';
+import emotionalVideo from '../../../assets/images/emotional_video.mp4';
+import vibesVideo from '../../../assets/images/vibes.mp4';
+import attitudeVideo from '../../../assets/images/attitude_video.mp4';
+import attitudeShortVideo from '../../../assets/images/attitude_short_video.mp4';
+import selfActualizationVideo from '../../../assets/images/self_actualization.mp4';
+import religiousVideo from '../../../assets/images/religious.mp4';
+import dramaticVideo from '../../../assets/images/dramatic.mp4';
 
 interface Project {
   id: number;

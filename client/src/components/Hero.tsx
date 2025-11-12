@@ -3,7 +3,7 @@ import { Play, Mail, Instagram, MessageCircle, Sparkles } from 'lucide-react';
 import { ParticleButton } from '@/components/ui/particle-button';
 import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 import { motion } from 'framer-motion';
-import profileImage from '../../../attached_assets/generated_images/Corporate_video_project_sample_151b361b.jpg';
+import profileImage from '../../../assets/images/Corporate_video_project_sample_151b361b.jpg';
 
 export default function Hero() {
   const [isVisible, setIsVisible] = useState(false);
