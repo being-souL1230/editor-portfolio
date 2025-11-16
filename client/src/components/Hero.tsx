@@ -98,7 +98,7 @@ export default function Hero() {
               </div>
               <div className="w-px bg-border" />
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary">150+</div>
+                <div className="text-3xl font-bold text-primary">20+</div>
                 <div className="text-sm text-muted-foreground">Happy Clients</div>
               </div>
               <div className="w-px bg-border" />
