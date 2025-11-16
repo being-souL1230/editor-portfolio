@@ -93,7 +93,7 @@ export default function Hero() {
 
             <div className="flex gap-4 animate-in fade-in duration-1000 delay-1000">
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary">500+</div>
+                <div className="text-3xl font-bold text-primary">100+</div>
                 <div className="text-sm text-muted-foreground">Projects Completed</div>
               </div>
               <div className="w-px bg-border" />
