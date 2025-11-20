@@ -140,7 +140,7 @@ export default function About() {
               </div>
               <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-purple-500/5 border border-purple-500/20">
                 <Users className="w-4 h-4 text-purple-500" />
-                <span className="font-medium">20+ Happy Clients</span>
+                <span className="font-medium">40+ Happy Clients</span>
               </div>
               <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-pink-500/5 border border-pink-500/20">
                 <Award className="w-4 h-4 text-pink-500" />
